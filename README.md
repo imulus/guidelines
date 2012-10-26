@@ -9,7 +9,7 @@
 
 ## Presentation
 
-* CSS
+* [CSS](/imulus/guidelines/tree/master/presentation/css)
 * Images
 
 ## Structure

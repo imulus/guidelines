@@ -48,8 +48,8 @@ This can be helpful when making single adjustments to multiple selectors.
 }
 
 .item1 { width: 10px; }
-.item2 { width: 20px; }
-.item3 { width: 10px; }
+.item2 { width: 15px; }
+.item3 { width: 20px; }
 ```
 
 Comma-separated values should be broken up onto multiple lines and indented one
@@ -65,3 +65,27 @@ level further than the property.
     0 0 10px #ccc inset;
 }
 ```
+
+## Folder Structure
+
+All CSS files should be stored in the `assets/stylesheets` folder in either the
+`app`, `lib`, or `vendor` folder.
+
+### App
+
+The `app` folder is where the majority of a project's CSS will live. It should
+contain all CSS specific to the project. This includes all of the site's layout
+setup in addition to modules unique to the site's design.
+
+### Lib
+
+The `lib` folder should contain any design patterns that are used throughout the
+project. Some examples may include image replacement mixins or inline-block
+style lists. Determining whether a pattern belongs in `app` or `lib` can be
+difficult, so use your best judgement.
+
+### Vendor
+
+Any CSS used in a third-party plugin should be stored in the `vendor` folder and
+should be contained in a folder named after the plugin. For example, the CSS for
+Fancybox should be located at `vendor/fancybox/jquery.fancybox.css`.

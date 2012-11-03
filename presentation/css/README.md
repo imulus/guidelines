@@ -77,7 +77,7 @@ The `app` folder is where the majority of a project's CSS will live. It should
 contain all CSS specific to the project. This includes all of the site's layout
 setup in addition to modules unique to the site's design.
 
-### Libraries
+### Library
 
 The `lib` folder should contain any design patterns that are used throughout the
 project. Some examples may include image replacement mixins or inline-block

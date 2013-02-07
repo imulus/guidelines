@@ -66,8 +66,9 @@ Getting up and running takes about 8-10 minutes.
 
 # Workflow
 ## Branching strategy
-- Master branch is always deployable.
-- Active development always happens on `feature/` branches off develop.
+- The `master` branch is always deployable.
+- Integration is done on the `develop` branch.
+- Active development always happens on `feature/` branches off of develop.
 - Hotfixes happen on `hotfix/` branches off master.
 - Recommended reading: [Git Branching - Branching Workflows](http://git-scm.com/book/ch3-4.html).
 

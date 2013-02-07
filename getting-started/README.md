@@ -41,7 +41,7 @@ Getting up and running takes about 8-10 minutes.
 1. On your command line, type `gem install bundler`.
 
 ## Install Banshee
-1. On your command line, type `npm install banshee`.
+1. On your command line, type `npm install banshee --global`.
 
 
 # Our Tools

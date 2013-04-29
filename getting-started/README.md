@@ -20,6 +20,8 @@ Getting up and running takes about 8-10 minutes.
 2. Open the downloaded installer and follow the steps.
 3. Ensure Ruby was added to your PATH by running `which ruby` on your command line. If `which ruby` returns blank, [follow these steps](http://support.microsoft.com/kb/310519) to add Ruby to your path.
 
+If you get the following error: `The error encountered was an SSL certificate authority error`, refer to [this gist](https://gist.github.com/fnichol/867550).
+
 ### OS X
 <(Need directions for installing Ruby on OS X)>
 

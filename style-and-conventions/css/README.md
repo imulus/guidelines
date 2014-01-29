@@ -1,7 +1,5 @@
 # CSS Guidelines
 
----
-
 ## Whitespace
 
 * Use soft tabs (spaces) with a tab size of two spaces.
@@ -68,8 +66,8 @@ level further than the property.
 
 ## Folder Structure
 
-All CSS files should be stored in the `assets/stylesheets` folder in either the
-`app`, `lib`, or `vendor` folder.
+All CSS files should be stored in either the `app`, `lib`, or `vendor` folder
+depending on its origin and use.
 
 ### Application
 
@@ -86,6 +84,9 @@ difficult, so use your best judgement.
 
 ### Vendor
 
-Any CSS used in a third-party plugin should be stored in the `vendor` folder and
-should be contained in a folder named after the plugin. For example, the CSS for
-Fancybox should be located at `vendor/fancybox/jquery.fancybox.css`.
+Any CSS used in a third-party plugin should be stored in the `vendor` folder
+and should be contained in a folder named after the plugin. For example, the
+CSS for Fancybox should be located at `vendor/fancybox/jquery.fancybox.css`.
+Additionally, any Bower dependencies should be installed to the `vendor/bower`
+folder.
+

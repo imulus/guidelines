@@ -1,6 +1,6 @@
 # Front-end Ecosystem
 
-The front-end developers at [Imulus](http://imulus.com/) use a wide range of tools. Here you can learn which tools are typically involved in a client project.
+The front-end developers at [Imulus](http://imulus.com/) use a wide range of tools to help build and maintain complex systems. Here you can learn which tools are typically involved in a client project.
 
 ## Node.js and npm
 
